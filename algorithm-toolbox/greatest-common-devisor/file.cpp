@@ -19,7 +19,6 @@ int gcd(int i, int j)
 int main()
 {
     int i, j;
-    cout << "Enter two space separated integers" << endl;
     cin >> i >> j;
     cout << gcd(i, j) << endl;
     return 0;
